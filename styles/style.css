@@ -124,6 +124,7 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #181818;
+    margin-top: 30px;
     
 }
 .skill-description{
@@ -133,3 +134,41 @@ main{
 }
 
 /* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .title{
+    font-weight: 700;
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.resume-item .subtitle{
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume-item .description{
+    font-weight: 400;    
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+/* resume end */
+
+.resume-btn{
+    margin: 50px;
+    text-align: center;
+
+}
